@@ -63,7 +63,7 @@ const contentByLocale = {
         tools: ['Next.js', 'React', 'Tailwind CSS', 'next-intl', 'JavaScript'],
         role: 'Fullstack Developer',
         code: 'https://github.com/Ahmedhawem/ahmed-hawem-portfolio',
-        demo: 'https://developer-portfolio-rosy-rho.vercel.app',
+        demo: 'https://ahmed-hawem-portfolio-rosy-rho.vercel.app',
       },
       {
         id: 2,
@@ -152,7 +152,7 @@ const contentByLocale = {
         tools: ['Next.js', 'React', 'Tailwind CSS', 'next-intl', 'JavaScript'],
         role: 'Fullstack-Entwickler',
         code: 'https://github.com/Ahmedhawem/ahmed-hawem-portfolio',
-        demo: 'https://developer-portfolio-rosy-rho.vercel.app',
+        demo: 'https://ahmed-hawem-portfolio-rosy-rho.vercel.app',
       },
       {
         id: 2,
@@ -241,7 +241,7 @@ const contentByLocale = {
         tools: ['Next.js', 'React', 'Tailwind CSS', 'next-intl', 'JavaScript'],
         role: 'Développeur Fullstack',
         code: 'https://github.com/Ahmedhawem/ahmed-hawem-portfolio',
-        demo: 'https://developer-portfolio-rosy-rho.vercel.app',
+        demo: 'https://ahmed-hawem-portfolio-rosy-rho.vercel.app',
       },
       {
         id: 2,

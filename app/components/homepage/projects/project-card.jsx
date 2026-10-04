@@ -1,8 +1,8 @@
-// @flow strict
-
+import { useTranslations } from 'next-intl';
 import * as React from 'react';
 
 function ProjectCard({ project }) {
+  const t = useTranslations('Projects');
 
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
@@ -52,12 +52,12 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">{"],"}</span>
           </div>
           <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
+            <span className="ml-4 lg:ml-8 mr-2 text-white">{t('myRole')}:</span>
             <span className="text-orange-400">{project.role}</span>
             <span className="text-gray-400">,</span>
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">Description:</span>
+            <span className="text-white">{t('description')}:</span>
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>

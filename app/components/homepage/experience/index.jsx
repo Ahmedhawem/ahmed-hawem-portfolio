@@ -1,13 +1,16 @@
-// @flow strict
-
-import { experiences } from "@/utils/data/experience";
+import { getLocale, getTranslations } from "next-intl/server";
+import { getExperiences } from "@/utils/data/localized-content";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
-import experience from '../../../assets/lottie/code.json';
+import experienceAnimation from '../../../assets/lottie/code.json';
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 
-function Experience() {
+async function Experience() {
+  const t = await getTranslations("Experience");
+  const locale = await getLocale();
+  const experiences = getExperiences(locale);
+
   return (
     <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
       <Image
@@ -23,7 +26,7 @@ function Experience() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Experiences
+            {t("title")}
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
@@ -33,7 +36,7 @@ function Experience() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
-              <AnimationLottie animationPath={experience} />
+              <AnimationLottie animationPath={experienceAnimation} />
             </div>
           </div>
 

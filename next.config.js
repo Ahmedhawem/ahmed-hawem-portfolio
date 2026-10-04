@@ -1,8 +1,15 @@
 const path = require('path')
- 
-module.exports = {
+const createNextIntlPlugin = require('next-intl/plugin')
+
+const withNextIntl = createNextIntlPlugin('./i18n/request.js')
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
+  },
+  turbopack: {
+    root: __dirname,
   },
   images: {
     remotePatterns: [
@@ -24,3 +31,5 @@ module.exports = {
     ],
   },
 }
+
+module.exports = withNextIntl(nextConfig)

@@ -1,0 +1,74 @@
+{
+  "Metadata": {
+    "title": "Portfolio von Ahmed Hawem - Fullstack-Entwickler",
+    "description": "Portfolio von Ahmed Hawem, Fullstack-Entwickler mit Erfahrung in React.js, Next.js, Laravel, Nest.js, TypeScript und relationalen Datenbanken. Wohnhaft in Sousse, Tunesien, und offen für Möglichkeiten in Deutschland."
+  },
+  "Navbar": {
+    "about": "ÜBER MICH",
+    "experience": "ERFAHRUNG",
+    "skills": "FÄHIGKEITEN",
+    "education": "AUSBILDUNG",
+    "blogs": "BLOG",
+    "projects": "PROJEKTE"
+  },
+  "Hero": {
+    "hello": "Hallo,",
+    "thisIs": "ich bin",
+    "imAProfessional": ", professioneller",
+    "contactMe": "Kontakt",
+    "getResume": "Lebenslauf"
+  },
+  "About": {
+    "label": "ÜBER MICH",
+    "whoIAm": "Wer bin ich?"
+  },
+  "Experience": {
+    "title": "Berufserfahrung"
+  },
+  "Skills": {
+    "title": "Fähigkeiten"
+  },
+  "Education": {
+    "title": "Ausbildung"
+  },
+  "Projects": {
+    "title": "PROJEKTE",
+    "myRole": "meineRolle",
+    "description": "Beschreibung"
+  },
+  "Blog": {
+    "title": "Blog",
+    "viewMore": "Mehr anzeigen",
+    "allBlog": "Alle Beiträge",
+    "empty": "Noch keine Blogbeiträge verfügbar.",
+    "minRead": "{count} Min. Lesezeit"
+  },
+  "Contact": {
+    "label": "KONTAKT",
+    "title": "Kontaktieren Sie mich",
+    "intro": "Wenn Sie Fragen oder Anliegen haben, zögern Sie bitte nicht, mich zu kontaktieren. Ich bin offen für alle beruflichen Möglichkeiten, die zu meinen Fähigkeiten und Interessen passen.",
+    "name": "Ihr Name:",
+    "email": "Ihre E-Mail:",
+    "message": "Ihre Nachricht:",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse an!",
+    "required": "Alle Felder sind erforderlich!",
+    "sending": "Nachricht wird gesendet...",
+    "send": "Nachricht senden",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+  },
+  "Footer": {
+    "by": "© Entwickler-Portfolio von"
+  },
+  "NotFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Leider existiert die gesuchte Seite nicht.",
+    "goHome": "Zur Startseite"
+  },
+  "Language": {
+    "label": "Sprache",
+    "en": "EN",
+    "de": "DE",
+    "fr": "FR"
+  }
+}

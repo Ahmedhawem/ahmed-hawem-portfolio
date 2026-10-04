@@ -1,11 +1,14 @@
 // @flow strict
 import { timeConverter } from '@/utils/time-converter';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BsHeartFill } from 'react-icons/bs';
 import { FaCommentAlt } from 'react-icons/fa';
 
 function BlogCard({ blog, priority = false }) {
+  const t = useTranslations('Blog');
+
 
   return (
     <div className="border border-[#1d293a] hover:border-[#464c6a] transition-all duration-500 bg-[#1b203e] rounded-lg relative group"
@@ -43,7 +46,7 @@ function BlogCard({ blog, priority = false }) {
           </p>
         </Link>
         <p className='mb-2 text-sm text-[#16f2b3]'>
-          {`${blog.reading_time_minutes} Min Read`}
+          {t('minRead', { count: blog.reading_time_minutes })}
         </p>
         <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6 line-clamp-3'>
           {blog.description}

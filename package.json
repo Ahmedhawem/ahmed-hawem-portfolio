@@ -1,8 +1,14 @@
 {
-  "name": "developer-portfolio",
-  "description": "Portfolio of Abu Said",
-  "version": "0.1.0",
+  "name": "ahmed-hawem-portfolio",
+  "description": "Personal portfolio of Ahmed Hawem — Fullstack Developer",
+  "version": "1.0.0",
   "private": true,
+  "author": "Ahmed Hawem <hawemahmed4@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ahmedhawem/ahmed-hawem-portfolio.git"
+  },
+  "homepage": "https://github.com/Ahmedhawem/ahmed-hawem-portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,6 +21,7 @@
     "axios": "^1.17.0",
     "lottie-react": "^2.4.1",
     "next": "16.2.7",
+    "next-intl": "^4.14.9",
     "nodemailer": "^8.0.10",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",

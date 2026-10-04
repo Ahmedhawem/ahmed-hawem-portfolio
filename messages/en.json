@@ -1,0 +1,74 @@
+{
+  "Metadata": {
+    "title": "Portfolio of Ahmed Hawem - Fullstack Developer",
+    "description": "Portfolio of Ahmed Hawem, a fullstack developer with experience in React.js, Next.js, Laravel, Nest.js, TypeScript, and relational databases. Based in Sousse, Tunisia, and open to opportunities in Germany."
+  },
+  "Navbar": {
+    "about": "ABOUT",
+    "experience": "EXPERIENCE",
+    "skills": "SKILLS",
+    "education": "EDUCATION",
+    "blogs": "BLOGS",
+    "projects": "PROJECTS"
+  },
+  "Hero": {
+    "hello": "Hello,",
+    "thisIs": "This is",
+    "imAProfessional": ", I'm a Professional",
+    "contactMe": "Contact me",
+    "getResume": "Get Resume"
+  },
+  "About": {
+    "label": "ABOUT ME",
+    "whoIAm": "Who I am?"
+  },
+  "Experience": {
+    "title": "Experiences"
+  },
+  "Skills": {
+    "title": "Skills"
+  },
+  "Education": {
+    "title": "Educations"
+  },
+  "Projects": {
+    "title": "PROJECTS",
+    "myRole": "myRole",
+    "description": "Description"
+  },
+  "Blog": {
+    "title": "Blogs",
+    "viewMore": "View More",
+    "allBlog": "All Blog",
+    "empty": "No blog posts available yet.",
+    "minRead": "{count} Min Read"
+  },
+  "Contact": {
+    "label": "CONTACT",
+    "title": "Contact with me",
+    "intro": "If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.",
+    "name": "Your Name:",
+    "email": "Your Email:",
+    "message": "Your Message:",
+    "invalidEmail": "Please provide a valid email!",
+    "required": "All fields are required!",
+    "sending": "Sending Message...",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again."
+  },
+  "Footer": {
+    "by": "© Developer Portfolio by"
+  },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist.",
+    "goHome": "Go to Home"
+  },
+  "Language": {
+    "label": "Language",
+    "en": "EN",
+    "de": "DE",
+    "fr": "FR"
+  }
+}

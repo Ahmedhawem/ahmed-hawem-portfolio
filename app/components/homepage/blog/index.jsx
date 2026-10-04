@@ -1,9 +1,10 @@
-// @flow strict
-import Link from 'next/link';
+import { getTranslations } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 import { FaArrowRight } from 'react-icons/fa';
 import BlogCard from './blog-card';
 
-function Blog({ blogs }) {
+async function Blog({ blogs }) {
+  const t = await getTranslations('Blog');
 
   return (
     <div id='blogs' className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
@@ -19,7 +20,7 @@ function Blog({ blogs }) {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Blogs
+            {t('title')}
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
@@ -40,7 +41,7 @@ function Blog({ blogs }) {
           role="button"
           href="/blog"
         >
-          <span>View More</span>
+          <span>{t('viewMore')}</span>
           <FaArrowRight size={16} />
         </Link>
       </div>

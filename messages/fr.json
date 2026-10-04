@@ -1,0 +1,74 @@
+{
+  "Metadata": {
+    "title": "Portfolio d'Ahmed Hawem - Développeur Fullstack",
+    "description": "Portfolio d'Ahmed Hawem, développeur fullstack avec une expérience en React.js, Next.js, Laravel, Nest.js, TypeScript et bases de données relationnelles. Basé à Sousse, Tunisie, et ouvert aux opportunités en Allemagne."
+  },
+  "Navbar": {
+    "about": "À PROPOS",
+    "experience": "EXPÉRIENCE",
+    "skills": "COMPÉTENCES",
+    "education": "FORMATION",
+    "blogs": "BLOG",
+    "projects": "PROJETS"
+  },
+  "Hero": {
+    "hello": "Bonjour,",
+    "thisIs": "je m'appelle",
+    "imAProfessional": ", je suis",
+    "contactMe": "Me contacter",
+    "getResume": "CV"
+  },
+  "About": {
+    "label": "À PROPOS",
+    "whoIAm": "Qui suis-je ?"
+  },
+  "Experience": {
+    "title": "Expériences"
+  },
+  "Skills": {
+    "title": "Compétences"
+  },
+  "Education": {
+    "title": "Formation"
+  },
+  "Projects": {
+    "title": "PROJETS",
+    "myRole": "monRôle",
+    "description": "Description"
+  },
+  "Blog": {
+    "title": "Blog",
+    "viewMore": "Voir plus",
+    "allBlog": "Tous les articles",
+    "empty": "Aucun article de blog disponible pour le moment.",
+    "minRead": "{count} min de lecture"
+  },
+  "Contact": {
+    "label": "CONTACT",
+    "title": "Me contacter",
+    "intro": "Si vous avez des questions ou des préoccupations, n'hésitez pas à me contacter. Je suis ouvert à toute opportunité professionnelle correspondant à mes compétences et à mes intérêts.",
+    "name": "Votre nom :",
+    "email": "Votre e-mail :",
+    "message": "Votre message :",
+    "invalidEmail": "Veuillez fournir une adresse e-mail valide !",
+    "required": "Tous les champs sont obligatoires !",
+    "sending": "Envoi du message...",
+    "send": "Envoyer",
+    "success": "Message envoyé avec succès !",
+    "error": "Échec de l'envoi du message. Veuillez réessayer."
+  },
+  "Footer": {
+    "by": "© Portfolio développeur par"
+  },
+  "NotFound": {
+    "title": "Page introuvable",
+    "description": "Désolé, la page que vous recherchez n'existe pas.",
+    "goHome": "Retour à l'accueil"
+  },
+  "Language": {
+    "label": "Langue",
+    "en": "EN",
+    "de": "DE",
+    "fr": "FR"
+  }
+}

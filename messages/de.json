@@ -34,7 +34,9 @@
   "Projects": {
     "title": "PROJEKTE",
     "myRole": "meineRolle",
-    "description": "Beschreibung"
+    "description": "Beschreibung",
+    "liveDemo": "Live-Demo",
+    "viewCode": "Code ansehen"
   },
   "Blog": {
     "title": "Blog",

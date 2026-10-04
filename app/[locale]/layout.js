@@ -23,6 +23,13 @@ export async function generateMetadata({ params }) {
   return {
     title: t("title"),
     description: t("description"),
+    icons: {
+      icon: [
+        { url: "/ahmed-hawem.png", type: "image/png" },
+        { url: "/icon.png", type: "image/png", sizes: "32x32" },
+      ],
+      apple: "/ahmed-hawem.png",
+    },
   };
 }
 

@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import * as React from 'react';
+import { FaCode, FaExternalLinkAlt } from 'react-icons/fa';
 
 function ProjectCard({ project }) {
   const t = useTranslations('Projects');
@@ -63,6 +64,33 @@ function ProjectCard({ project }) {
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
+
+        {(project.demo || project.code) && (
+          <div className="mt-5 flex flex-wrap justify-end gap-3">
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-4 py-2 text-xs md:text-sm font-semibold uppercase tracking-wider text-white transition-all hover:gap-3"
+              >
+                <span>{t('liveDemo')}</span>
+                <FaExternalLinkAlt size={12} />
+              </a>
+            )}
+            {project.code && (
+              <a
+                href={project.code}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-[#16f2b3] px-4 py-2 text-xs md:text-sm font-semibold uppercase tracking-wider text-[#16f2b3] transition-all hover:gap-3 hover:bg-[#16f2b3] hover:text-[#0d1224]"
+              >
+                <span>{t('viewCode')}</span>
+                <FaCode size={12} />
+              </a>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

@@ -58,6 +58,15 @@ const contentByLocale = {
     projects: [
       {
         id: 1,
+        name: 'Personal Portfolio',
+        description: "Multilingual personal portfolio built with Next.js 16, React 19, Tailwind CSS 4, and next-intl. Features localized content in English, German, and French, project showcases, resume download, and a contact form.",
+        tools: ['Next.js', 'React', 'Tailwind CSS', 'next-intl', 'JavaScript'],
+        role: 'Fullstack Developer',
+        code: 'https://github.com/Ahmedhawem/ahmed-hawem-portfolio',
+        demo: '',
+      },
+      {
+        id: 2,
         name: 'ForsaHome',
         description: "Developed and optimized an e-commerce website with React.js and Laravel. Focused on performance, usability, and reliable shopping experiences for end users.",
         tools: ['React', 'Laravel', 'MySQL', 'JavaScript', 'REST APIs'],
@@ -66,7 +75,7 @@ const contentByLocale = {
         demo: 'https://forsahome.tn',
       },
       {
-        id: 2,
+        id: 3,
         name: 'Ingco Officiel',
         description: "Built and improved an e-commerce platform with React.js and Laravel, including API integrations for delivery services and external systems. Worked on custom WooCommerce plugins and logistics process automation.",
         tools: ['React', 'Laravel', 'WooCommerce', 'MySQL', 'REST APIs'],
@@ -75,7 +84,7 @@ const contentByLocale = {
         demo: 'https://ingcoofficiel.tn',
       },
       {
-        id: 3,
+        id: 4,
         name: 'TounesConnect',
         description: "Developed the company website from scratch with a React.js frontend and Laravel backend. Designed and optimized the MySQL database structure, implemented dynamic features, and applied targeted performance improvements.",
         tools: ['React', 'Laravel', 'MySQL', 'JavaScript'],
@@ -84,7 +93,7 @@ const contentByLocale = {
         demo: 'https://tounesconnect.com',
       },
       {
-        id: 4,
+        id: 5,
         name: 'Sherekhan Zoo',
         description: "Built a custom website for Sherekhan Zoo as part of freelance work with TounesConnect. Implemented dynamic content and performance optimizations using React.js and Laravel.",
         tools: ['React', 'Laravel', 'MySQL', 'JavaScript'],
@@ -138,6 +147,15 @@ const contentByLocale = {
     projects: [
       {
         id: 1,
+        name: 'Persönliches Portfolio',
+        description: "Mehrsprachiges persönliches Portfolio mit Next.js 16, React 19, Tailwind CSS 4 und next-intl. Inhalt auf Englisch, Deutsch und Französisch, Projektpräsentationen, Lebenslauf-Download und Kontaktformular.",
+        tools: ['Next.js', 'React', 'Tailwind CSS', 'next-intl', 'JavaScript'],
+        role: 'Fullstack-Entwickler',
+        code: 'https://github.com/Ahmedhawem/ahmed-hawem-portfolio',
+        demo: '',
+      },
+      {
+        id: 2,
         name: 'ForsaHome',
         description: "Entwicklung und Optimierung einer E-Commerce-Website mit React.js und Laravel. Fokus auf Performance, Benutzerfreundlichkeit und zuverlässige Einkaufserlebnisse.",
         tools: ['React', 'Laravel', 'MySQL', 'JavaScript', 'REST APIs'],
@@ -146,7 +164,7 @@ const contentByLocale = {
         demo: 'https://forsahome.tn',
       },
       {
-        id: 2,
+        id: 3,
         name: 'Ingco Officiel',
         description: "Aufbau und Verbesserung einer E-Commerce-Plattform mit React.js und Laravel, inklusive API-Integrationen für Lieferdienste und externe Systeme. Entwicklung maßgeschneiderter WooCommerce-Plugins und Automatisierung logistischer Prozesse.",
         tools: ['React', 'Laravel', 'WooCommerce', 'MySQL', 'REST APIs'],
@@ -155,7 +173,7 @@ const contentByLocale = {
         demo: 'https://ingcoofficiel.tn',
       },
       {
-        id: 3,
+        id: 4,
         name: 'TounesConnect',
         description: "Entwicklung der Unternehmenswebsite von Grund auf mit React.js-Frontend und Laravel-Backend. Aufbau und Optimierung der MySQL-Datenbankstruktur, Implementierung dynamischer Funktionen und gezielte Performance-Optimierungen.",
         tools: ['React', 'Laravel', 'MySQL', 'JavaScript'],
@@ -164,7 +182,7 @@ const contentByLocale = {
         demo: 'https://tounesconnect.com',
       },
       {
-        id: 4,
+        id: 5,
         name: 'Sherekhan Zoo',
         description: "Entwicklung einer maßgeschneiderten Website für Sherekhan Zoo im Rahmen der Freelance-Arbeit mit TounesConnect. Umsetzung dynamischer Inhalte und Performance-Optimierungen mit React.js und Laravel.",
         tools: ['React', 'Laravel', 'MySQL', 'JavaScript'],
@@ -218,6 +236,15 @@ const contentByLocale = {
     projects: [
       {
         id: 1,
+        name: 'Portfolio personnel',
+        description: "Portfolio personnel multilingue avec Next.js 16, React 19, Tailwind CSS 4 et next-intl. Contenu en anglais, allemand et français, présentation de projets, téléchargement du CV et formulaire de contact.",
+        tools: ['Next.js', 'React', 'Tailwind CSS', 'next-intl', 'JavaScript'],
+        role: 'Développeur Fullstack',
+        code: 'https://github.com/Ahmedhawem/ahmed-hawem-portfolio',
+        demo: '',
+      },
+      {
+        id: 2,
         name: 'ForsaHome',
         description: "Développement et optimisation d'un site e-commerce avec React.js et Laravel. Accent mis sur la performance, l'ergonomie et une expérience d'achat fiable.",
         tools: ['React', 'Laravel', 'MySQL', 'JavaScript', 'REST APIs'],
@@ -226,7 +253,7 @@ const contentByLocale = {
         demo: 'https://forsahome.tn',
       },
       {
-        id: 2,
+        id: 3,
         name: 'Ingco Officiel',
         description: "Création et amélioration d'une plateforme e-commerce avec React.js et Laravel, incluant des intégrations API pour les services de livraison et systèmes externes. Développement de plugins WooCommerce personnalisés et automatisation des processus logistiques.",
         tools: ['React', 'Laravel', 'WooCommerce', 'MySQL', 'REST APIs'],
@@ -235,7 +262,7 @@ const contentByLocale = {
         demo: 'https://ingcoofficiel.tn',
       },
       {
-        id: 3,
+        id: 4,
         name: 'TounesConnect',
         description: "Développement du site de l'entreprise from scratch avec un frontend React.js et un backend Laravel. Conception et optimisation de la structure MySQL, implémentation de fonctionnalités dynamiques et optimisations de performance ciblées.",
         tools: ['React', 'Laravel', 'MySQL', 'JavaScript'],
@@ -244,7 +271,7 @@ const contentByLocale = {
         demo: 'https://tounesconnect.com',
       },
       {
-        id: 4,
+        id: 5,
         name: 'Sherekhan Zoo',
         description: "Création d'un site sur mesure pour Sherekhan Zoo dans le cadre d'une mission freelance avec TounesConnect. Mise en place de contenus dynamiques et d'optimisations de performance avec React.js et Laravel.",
         tools: ['React', 'Laravel', 'MySQL', 'JavaScript'],
